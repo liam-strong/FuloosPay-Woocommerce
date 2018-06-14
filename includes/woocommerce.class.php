@@ -1,10 +1,8 @@
 <?php
 /*
 
-Main Gateway of bytecoin
+Fuloos Pay
 Version: 1.0
-Editors: Mohdows and InspireProducts
-Main Devs: @serhack and @cryptochangements34
 
 */
 class fuloospay_Gateway extends WC_Payment_Gateway
