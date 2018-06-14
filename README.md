@@ -7,25 +7,16 @@ PHP Payment Gateway for WooCommerce.
 This a plugin for WooCommerce (WordPress). Making it easier to accept Fuloos Coin Payments directly via your site using FuloosPay Merchant Platform.
 
 
-## How to Use
+## How to Install & Use
 
-This class is very simple to use, you need to simply include the api.class.php file and initialize it.
+1. Download the latest version release from releases or click this link:
 
-```php
+2. Upload the files to your wp-content/plugins/woocommerce-fuloospay directory on your webhost.
 
-  // Include the class file
-  require_once 'api.class.php';
-  
-  // Start the fuloos class with the RPC Information
-  $FuloosPay = new \API\FuloosPay("Access-Key");
-  
-  // Send request to the API
-  $Fuloos->_check_key();
-  
+3. Activate the plugin via wordpress and enter your API Key and set the location for your callback IPN.
 
-```
+4. Start Accepting Fuloos Coin.
 
-Now the Fuloos Pay API class is ready.
 
 ### Error Catcher
 
