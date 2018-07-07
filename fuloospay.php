@@ -58,7 +58,7 @@ function bytecoin_create_menu()
     );
 }
 
-// Adding Bytecoin as a currencies
+// Adding as a currencies
 add_filter('woocommerce_currencies', 'add_my_currency');
 add_filter('woocommerce_currency_symbol', 'add_my_currency_symbol', 10, 2);
 
